@@ -6,5 +6,4 @@ import com.example.biliotheque1.entity.Livre;
 
 public interface LivreServiceItf {
 	List<Livre> getAllLivre();
-
 }

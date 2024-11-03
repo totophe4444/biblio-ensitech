@@ -22,10 +22,10 @@ public class LivreController {
 		System.out.println("==== /accueil ====");
         return "accueil";
     }
-	@RequestMapping("/administrer")
+	@RequestMapping("/afficher-livres")
     public String administrer(Model model) {
-		System.out.println("==== /administrer ====");
+		System.out.println("==== /afficher-livres ====");
     	model.addAttribute("livreList", livreService.getAllLivre());
-        return "administrer";
+        return "catalogue";
     }
 }

@@ -16,7 +16,4 @@ public class LivreService implements LivreServiceItf{
 	public List<Livre> getAllLivre() {
 		return livreRepository.findAll();
 	}
-	
-	
-	
 }
